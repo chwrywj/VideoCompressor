@@ -1,0 +1,45 @@
+{
+  "name": "video-compress",
+  "version": "1.0.0",
+  "description": "A video compression application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "productName": "Video compress",
+    "asar": false,
+    "appId": "com.world0101.videocompress",
+    "win": {
+      "icon": "./build/icons/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "installerIcon": "./build/icons/icon.ico",
+    "uninstallerIcon": "./build/icons/icon.ico",
+    "installerHeaderIcon": "./build/icons/icon.ico"
+  },
+  "repository": "https://github.com/chwrywj/VideoCompress",
+  "author": "wang jian",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "electron": "^12.2.3",
+    "electron-builder": "^24.6.4"
+  }
+}
