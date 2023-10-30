@@ -125,7 +125,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
         //   console.log('Stderr output: ' + stderrLine);
         // })
         .on('progress', function (progress) {
-          console.log(progress)
+          //console.log(progress)
           //console.log('Processing: ' + progress.percent + '% done');
           if(progressCallback!=null){
             progressCallback(progress,output);
