@@ -172,7 +172,7 @@
                         <span slot="label" class="label">
                             {{lang('bitRateSettingMethod')}}
                         </span>
-                        <el-select class="content" v-model="compressOptions.bitRateSettingMethod" size="mini" :disabled="compressIng" @change="compressOptions.bitRate=null;$refs['compressOptionsForm'].clearValidate('bitRate');">
+                        <el-select class="content" v-model="compressOptions.bitRateSettingMethod" :disabled="compressIng" @change="compressOptions.bitRate=null;$refs['compressOptionsForm'].clearValidate('bitRate');">
                             <el-option :label="lang('bitRateSettingMethod1')" key="crf" value="crf"></el-option>
                             <el-option :label="lang('bitRateSettingMethod2')" key="bitRate" value="bitRate"></el-option>
                         </el-select>
@@ -240,8 +240,8 @@
         </div>
         <div class="footer">
             <div class="about">
-                <div>{{lang('support')}}: <el-link type="primary" @click="openBrowser('https://www.world0101.com?from=VideoProcess')">{{lang('digitalWorld')}}(world0101.com)</el-link></div>
-                <div class="donate"><el-link type="primary" @click="openBrowser('https://www.world0101.com/Redirect?type=donate&from=VideoProcess')">{{lang('donata')}}</el-link></div>
+                <div>{{lang('support')}}: <el-link type="primary" @click="openBrowser('https://www.world0101.com?from=VideoCompress')">{{lang('digitalWorld')}}(world0101.com)</el-link></div>
+                <div class="donate"><el-link type="primary" @click="openBrowser('https://www.world0101.com/Redirect?type=donate&from=VideoCompress')">{{lang('donata')}}</el-link></div>
             </div>
             <el-button type="primary" class="btn-compress" @click="goCompress" :disabled="fileData==null || fileData.length==0 || fileCompressPercent==100">{{compressIng?lang('compressStop'):lang('compressStart')}}</el-button>
         </div>
@@ -250,6 +250,6 @@
     <script src="./lib/vue/vue.min.js"></script>
     <script src="./lib/element-ui/index.js"></script>
     <script src="./js/renderer.js"></script>
-    <script src="https://www.world0101.com/api/Statistics?from=VideoProcess&action=OpenVideoProcess"></script>
+    <script src="https://www.world0101.com/api/Statistics?from=VideoCompress&action=OpenVideoCompress"></script>
 </body>
 </html>

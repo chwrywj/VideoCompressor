@@ -21,7 +21,7 @@ function createWindow() {
 
     mainWindow.loadFile('src/index.html')
 
-    //mainWindow.webContents.openDevTools()
+    mainWindow.webContents.openDevTools()
 
     mainWindow.on('closed', function () {
         mainWindow = null
@@ -30,7 +30,7 @@ function createWindow() {
 
 app.whenReady().then(() => {
     ipcMain.handle('getLocale', () => {
-        //return "de";
+        //return "en";
         return app.getLocale()
     })
 

@@ -1,5 +1,5 @@
 {
-	"title": "数字世界视频压缩",
+	"title": "数字世界: 视频压缩",
 	"addFileTip": "支持格式：",
 	"addFileBtn": "添加文件",
 	"addDirBtn": "添加文件夹",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "任务线程数",
 	"taskThreadsNumberTip": "任务线程数越大消耗CUP和内存越多，普通电脑建议选择1-3",
 	"bitRateSettingMethod": "比特率设置方式",
-	"bitRateSettingMethod1": "固定码率因子",
+	"bitRateSettingMethod1": "恒定速率因子",
 	"bitRateSettingMethod2": "手动输入比特率",
-	"crf": "固定码率因子",
+	"crf": "恒定速率因子",
 	"crfTip": "值越大视频质量越差，压缩率越高",
 	"bitRate": "最大比特率",
 	"bitRateTip1": "比特率越大视频体积越大",

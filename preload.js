@@ -24,6 +24,8 @@ const ffmpeg = require('fluent-ffmpeg');
   ffmpeg.setFfmpegPath(binPath);
 })();
 
+var ffmpegCommandArr=[];
+
 contextBridge.exposeInMainWorld('electronAPI', {
   openBrowser: (url) => {
     shell.openExternal(url);
@@ -90,7 +92,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
 
   getVideoOrAudioMetaData:(input,callback)=>{
     ffmpeg(input).ffprobe((err, data) => {
-      console.log(err)
+      //console.log(err)
       if(err==null && callback!=null){
         callback(data);
       }
@@ -99,9 +101,9 @@ contextBridge.exposeInMainWorld('electronAPI', {
   
   execFfmpeg: (input, output, opts, progressCallback,endCallback,errorCallback) => {
     try{
-      var ffmpegCommand = ffmpeg(input)
+      ffmpegCommand = ffmpeg(input)
       if(opts.frameRate!=null){
-        ffmpegCommand.fps(opts.frameRate);
+        ffmpegCommand = ffmpegCommand.fps(opts.frameRate);
       }
       if(opts.resolution[0]!=null || opts.resolution[1]!=null){
         ffmpegCommand=ffmpegCommand
@@ -114,7 +116,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
       if(opts.bitRate!=null){
         ffmpegCommand=ffmpegCommand.outputOptions(['-b:v',opts.bitRate+'k']);
       }
-      ffmpegCommand.output(output)
+      ffmpegCommand = ffmpegCommand
         .on('start', function (commandLine) {
           console.log('Spawned Ffmpeg with command: ' + commandLine);
         })
@@ -128,22 +130,23 @@ contextBridge.exposeInMainWorld('electronAPI', {
           //console.log(progress)
           //console.log('Processing: ' + progress.percent + '% done');
           if(progressCallback!=null){
-            progressCallback(progress,output);
+            progressCallback(progress);
           }
         })
         .on('end', function (stdout, stderr) {
           console.log('Transcoding succeeded!');
           if(endCallback!=null){
-            endCallback(output);
+            endCallback();
           }
         })
         .on('error', function (err, stdout, stderr) {
-          console.log('Cannot process video: ', err);
+          console.log('Cannot process: ', err);
           if(errorCallback!=null){
-            errorCallback(output);
+            errorCallback();
           }
         })
-        .run();
+        .save(output);
+        ffmpegCommandArr.push(ffmpegCommand);
     }catch(e){
       console.log(e);
       if(errorCallback!=null){
@@ -152,10 +155,11 @@ contextBridge.exposeInMainWorld('electronAPI', {
     }
   },
 
-  stopFfmpegCommand:()=>{
-    // if(ffmpegCommand!=null){
-    //   ffmpegCommand.kill();
-    // }
+  killFfmpegCommand:()=>{
+    for(var i=ffmpegCommandArr.length-1;i>=0;i--){
+      ffmpegCommandArr[i].kill();
+      ffmpegCommandArr.splice(i,1);
+    }
   }
 })
 
