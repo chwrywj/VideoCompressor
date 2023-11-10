@@ -10,8 +10,7 @@ Currently, only the Windows version is packaged. If you need Mac and Linux versi
 
 https://github.com/chwrywj/VideoCompress/releases
 
-![](https://github.com/chwrywj/VideoCompress/blob/main/screenshot1.png)
-![](https://github.com/chwrywj/VideoCompress/blob/main/screenshot2.png)
+![](https://github.com/chwrywj/VideoCompress/blob/main/screenshot.png)
 
 # Related
 [ffmpeg](https://www.ffmpeg.org/)
