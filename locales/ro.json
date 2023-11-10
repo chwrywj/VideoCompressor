@@ -1,5 +1,5 @@
 {
-	"title": "Compresie video digitală",
+	"title": "Lumea digitală: Comprimarea video",
 	"addFileTip": "Formate acceptate:",
 	"addFileBtn": "Adaugă fișiere",
 	"addDirBtn": "adaugă dosare",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Număr de fire de activități",
 	"taskThreadsNumberTip": "Cu cât numărul de fire de sarcini este mai mare, cu atât consumă mai multă CUP și memorie.",
 	"bitRateSettingMethod": "Metoda de setare a ratei de biți",
-	"bitRateSettingMethod1": "Factor de rată de biți fixă",
+	"bitRateSettingMethod1": "Factor de rată constantă",
 	"bitRateSettingMethod2": "Rata de biți de intrare manuală",
-	"crf": "Factor de rată de biți fixă",
+	"crf": "Factor de rată constantă",
 	"crfTip": "Cu cât valoarea este mai mare, cu atât calitatea video este mai rea și rata de compresie este mai mare",
 	"bitRate": "Rata maximă de biți",
 	"bitRateTip1": "Cu cât rata de biți este mai mare, cu atât volumul video este mai mare",

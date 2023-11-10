@@ -1,5 +1,5 @@
 {
-	"title": "Compression vidéo pour le monde numérique",
+	"title": "Monde numérique: compression vidéo",
 	"addFileTip": "Formats supportés:",
 	"addFileBtn": "Ajouter un fichier",
 	"addDirBtn": "Ajouter un dossier",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Nombre de Threads de tâche",
 	"taskThreadsNumberTip": "Plus le nombre de Threads de tâche consomme de Cup et de mémoire, plus un ordinateur normal recommande de choisir 1 - 3",
 	"bitRateSettingMethod": "Méthode de réglage du débit binaire",
-	"bitRateSettingMethod1": "Facteur de taux de code fixe",
+	"bitRateSettingMethod1": "Facteur de taux constant",
 	"bitRateSettingMethod2": "Entrez le bitrate manuellement",
-	"crf": "Facteur de taux de code fixe",
+	"crf": "Facteur de taux constant",
 	"crfTip": "Plus la valeur est grande plus la qualité vidéo est mauvaise, plus le taux de compression est élevé",
 	"bitRate": "Débit maximal",
 	"bitRateTip1": "Plus de bitrate plus de volume vidéo",

@@ -1,5 +1,5 @@
 {
-	"title": "Digitális világ videotömörítés",
+	"title": "Digitális világ: Videotömörítés",
 	"addFileTip": "Támogatott formátumok:",
 	"addFileBtn": "Fájlok hozzáadása",
 	"addDirBtn": "mappák hozzáadása",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "A feladatszálak száma",
 	"taskThreadsNumberTip": "Minél nagyobb a feladatszálak száma, annál több CUP-t és memóriát fogyaszt el.",
 	"bitRateSettingMethod": "Bitsebesség beállítási módszer",
-	"bitRateSettingMethod1": "Fix bitsebességtényező",
+	"bitRateSettingMethod1": "Állandó kamattényező",
 	"bitRateSettingMethod2": "Kézi bemeneti bitsebesség",
-	"crf": "Fix bitsebességtényező",
+	"crf": "Állandó kamattényező",
 	"crfTip": "Minél magasabb az érték, annál rosszabb a videó minősége és annál magasabb a tömörítési arány",
 	"bitRate": "Maximális bitsebesség",
 	"bitRateTip1": "Minél nagyobb a bitsebesség, annál nagyobb a videó hangerője",

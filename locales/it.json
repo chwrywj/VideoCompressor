@@ -1,5 +1,5 @@
 {
-	"title": "Compressione video del mondo digitale",
+	"title": "Mondo digitale: compressione video",
 	"addFileTip": "Formati supportati:",
 	"addFileBtn": "Aggiungi file",
 	"addDirBtn": "aggiungi cartelle",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Numero di thread di attività",
 	"taskThreadsNumberTip": "Più grande è il numero di thread di attività, più CUP e memoria consuma. Si consiglia di scegliere 1-3 per i computer normali",
 	"bitRateSettingMethod": "Metodo di impostazione del bitrate",
-	"bitRateSettingMethod1": "Fattore di bit rate fisso",
+	"bitRateSettingMethod1": "Fattore di tasso costante",
 	"bitRateSettingMethod2": "Bitrate di input manuale",
-	"crf": "Fattore di bit rate fisso",
+	"crf": "Fattore di tasso costante",
 	"crfTip": "Maggiore è il valore, peggiore è la qualità video e maggiore è il tasso di compressione",
 	"bitRate": "Bitrate massimo",
 	"bitRateTip1": "Maggiore è il bit rate, maggiore è il volume video",

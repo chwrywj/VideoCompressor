@@ -1,5 +1,5 @@
 {
-	"title": "Digital World Video Compression",
+	"title": "Digital World: Video Compression",
 	"addFileTip": "Supported formats:",
 	"addFileBtn": "Add Files",
 	"addDirBtn": "Add folders",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Number of task threads",
 	"taskThreadsNumberTip": "The larger the number of task threads, the more CUP and memory it consumes. It is recommended to choose 1-3 for regular computers",
 	"bitRateSettingMethod": "Bit rate setting method",
-	"bitRateSettingMethod1": "Fixed bit rate factor",
+	"bitRateSettingMethod1": "Constant rate factor",
 	"bitRateSettingMethod2": "Manually input bit rate",
-	"crf": "Fixed bit rate factor",
+	"crf": "Constant rate factor",
 	"crfTip": "The higher the value, the worse the video quality and the higher the compression rate",
 	"bitRate": "Maximum bit rate",
 	"bitRateTip1": "The larger the bit rate, the larger the video volume",

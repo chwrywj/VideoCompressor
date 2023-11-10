@@ -1,5 +1,5 @@
 {
-	"title": "Digital verdens videokomprimering",
+	"title": "Digital verden: Videokomprimering",
 	"addFileTip": "Understøttede formater:",
 	"addFileBtn": "Tilføj filer",
 	"addDirBtn": "tilføj mapper",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Antal opgavetråde",
 	"taskThreadsNumberTip": "Jo større antallet af opgavetråde, jo mere CUP og hukommelse bruger det. Det anbefales at vælge 1-3 for almindelige computere",
 	"bitRateSettingMethod": "Bithastighedsindstillingsmetode",
-	"bitRateSettingMethod1": "Fast bithastighedsfaktor",
+	"bitRateSettingMethod1": "Konstant satsfaktor",
 	"bitRateSettingMethod2": "Manuelt input bithastighed",
-	"crf": "Fast bithastighedsfaktor",
+	"crf": "Konstant satsfaktor",
 	"crfTip": "Jo højere værdi, jo værre videokvalitet og jo højere kompressionshastighed",
 	"bitRate": "Maksimal bithastighed",
 	"bitRateTip1": "Jo større bithastighed, jo større videovolumen",

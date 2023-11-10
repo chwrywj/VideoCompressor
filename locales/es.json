@@ -1,5 +1,5 @@
 {
-	"title": "Compresión de vídeo del mundo digital",
+	"title": "Mundo digital: compresión de vídeo",
 	"addFileTip": "Formato de soporte:",
 	"addFileBtn": "Añadir archivo",
 	"addDirBtn": "Añadir carpetas",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Número de hilos de tareas",
 	"taskThreadsNumberTip": "Cuanto mayor sea el número de hilos de tarea, mayor será el consumo de Cup y memoria, y las computadoras ordinarias recomiendan elegir 1 - 3.",
 	"bitRateSettingMethod": "Modo de configuración de la tasa de bits",
-	"bitRateSettingMethod1": "Factor de tasa de bits fija",
+	"bitRateSettingMethod1": "Factor de velocidad constante",
 	"bitRateSettingMethod2": "Tasa de bits de entrada manual",
-	"crf": "Factor de tasa de bits fija",
+	"crf": "Factor de velocidad constante",
 	"crfTip": "Cuanto mayor sea el valor, peor será la calidad del video y mayor será la tasa de compresión.",
 	"bitRate": "Tasa máxima de bits",
 	"bitRateTip1": "Cuanto mayor sea la tasa de bits, mayor será el volumen del video.",

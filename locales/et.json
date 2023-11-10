@@ -1,5 +1,5 @@
 {
-	"title": "Digitaalse maailma video tihendamine",
+	"title": "Digitaalne maailm: video tihendamine",
 	"addFileTip": "Toetatud vormingud:",
 	"addFileBtn": "Lisa failid",
 	"addDirBtn": "lisa kataloogid",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Ülesandelõimede arv",
 	"taskThreadsNumberTip": "Mida suurem on ülesannete lõimede arv, seda rohkem CUP ja mälu see tarbib. Tavaliste arvutite puhul on soovitatav valida 1- 3",
 	"bitRateSettingMethod": "Bitikiiruse seadistamise meetod",
-	"bitRateSettingMethod1": "Fikseeritud bitikiiruse tegur",
+	"bitRateSettingMethod1": "Püsimäära tegur",
 	"bitRateSettingMethod2": "Käsitsi sisestatud bitikiirus",
-	"crf": "Fikseeritud bitikiiruse tegur",
+	"crf": "Püsimäära tegur",
 	"crfTip": "Mida suurem on väärtus, seda halvem on video kvaliteet ja seda suurem on tihenduskiirus.",
 	"bitRate": "Maksimaalne bitikiirus",
 	"bitRateTip1": "Mida suurem on bitikiirus, seda suurem on video helitugevus",

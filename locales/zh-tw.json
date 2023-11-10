@@ -1,5 +1,5 @@
 {
-	"title": "數字世界視頻壓縮",
+	"title": "數字世界: 視頻壓縮",
 	"addFileTip": "支持格式：",
 	"addFileBtn": "添加文件",
 	"addDirBtn": "添加文件夾",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "任務線程數",
 	"taskThreadsNumberTip": "任務線程數越大消耗CUP和內存越多，普通電腦建議選擇1-3",
 	"bitRateSettingMethod": "比特率設置方式",
-	"bitRateSettingMethod1": "固定碼率因子",
+	"bitRateSettingMethod1": "恒定速率因子",
 	"bitRateSettingMethod2": "手動輸入比特率",
-	"crf": "固定碼率因子",
+	"crf": "恒定速率因子",
 	"crfTip": "值越大視頻質量越差，壓縮率越高",
 	"bitRate": "最大比特率",
 	"bitRateTip1": "比特率越大視頻體積越大",

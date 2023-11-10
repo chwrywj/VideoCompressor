@@ -1,5 +1,5 @@
 {
-	"title": "Nén video thế giới kỹ thuật số",
+	"title": "Thế giới kỹ thuật số: nén video",
 	"addFileTip": "Định dạng hỗ trợ:",
 	"addFileBtn": "Thêm tập tin",
 	"addDirBtn": "Thêm thư mục",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Số lượng task thread",
 	"taskThreadsNumberTip": "Số lượng chủ đề tác vụ càng lớn tiêu hao CUP và bộ nhớ càng nhiều, máy tính thông thường đề nghị chọn 1 - 3",
 	"bitRateSettingMethod": "Cách thiết lập tốc độ bit",
-	"bitRateSettingMethod1": "Hệ số tốc độ mã cố định",
+	"bitRateSettingMethod1": "Yếu tố tốc độ không đổi",
 	"bitRateSettingMethod2": "Tốc độ bit đầu vào thủ công",
-	"crf": "Hệ số tốc độ mã cố định",
+	"crf": "Yếu tố tốc độ không đổi",
 	"crfTip": "Giá trị càng lớn chất lượng video càng kém, tỷ lệ nén càng cao",
 	"bitRate": "Tốc độ bit tối đa",
 	"bitRateTip1": "Tốc độ bit càng lớn thì video càng lớn.",

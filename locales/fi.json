@@ -1,5 +1,5 @@
 {
-	"title": "Digitaalisen maailman videopakkaus",
+	"title": "Digitaalinen maailma: Videopakkaus",
 	"addFileTip": "Tuetut muodot:",
 	"addFileBtn": "Lisää tiedostoja",
 	"addDirBtn": "Lisää kansioita",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Tehtäväketjujen lukumäärä",
 	"taskThreadsNumberTip": "Mitä suurempi tehtäväsäikeiden määrä on, sitä enemmän CUP ja muistia se kuluttaa.",
 	"bitRateSettingMethod": "Bittinopeuden asetusmenetelmä",
-	"bitRateSettingMethod1": "Kiinteä bittinopeuskerroin",
+	"bitRateSettingMethod1": "Vakiokorkoinen kerroin",
 	"bitRateSettingMethod2": "Manuaalisesti syötetty bittinopeus",
-	"crf": "Kiinteä bittinopeuskerroin",
+	"crf": "Vakiokorkoinen kerroin",
 	"crfTip": "Mitä suurempi arvo on, sitä huonompi videon laatu ja sitä suurempi pakkausnopeus",
 	"bitRate": "Suurin bittinopeus",
 	"bitRateTip1": "Mitä suurempi bittinopeus, sitä suurempi videon äänenvoimakkuus",

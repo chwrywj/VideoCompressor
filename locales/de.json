@@ -1,5 +1,5 @@
 {
-	"title": "Digitale Welt Videokompression",
+	"title": "Digitale Welt: Videokompression",
 	"addFileTip": "Unterstützte Formate:",
 	"addFileBtn": "Dateien hinzufügen",
 	"addDirBtn": "Ordner hinzufügen",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Anzahl der Task Threads",
 	"taskThreadsNumberTip": "Je größer die Anzahl der Task Threads, desto mehr CUP und Arbeitsspeicher wird verbraucht.",
 	"bitRateSettingMethod": "Methode zur Einstellung der Bitrate",
-	"bitRateSettingMethod1": "Fester Bitrate-Faktor",
+	"bitRateSettingMethod1": "Konstanter Zinsfaktor",
 	"bitRateSettingMethod2": "Bitrate manuell eingeben",
-	"crf": "Fester Bitrate-Faktor",
+	"crf": "Konstanter Zinsfaktor",
 	"crfTip": "Je höher der Wert, desto schlechter die Videoqualität und desto höher die Kompressionsrate",
 	"bitRate": "Maximale Bitrate",
 	"bitRateTip1": "Je größer die Bitrate, desto größer die Videolautstärke",

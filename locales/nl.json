@@ -1,5 +1,5 @@
 {
-	"title": "Digitale wereld videocompressie",
+	"title": "Digitale wereld: videocompressie",
 	"addFileTip": "Ondersteunde formaten:",
 	"addFileBtn": "Bestanden toevoegen",
 	"addDirBtn": "mappen toevoegen",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Aantal taakdraden",
 	"taskThreadsNumberTip": "Hoe groter het aantal taakdraden, hoe meer CUP en geheugen het verbruikt.",
 	"bitRateSettingMethod": "Bitsnelheid instelmethode",
-	"bitRateSettingMethod1": "Vaste bitsnelheid factor",
+	"bitRateSettingMethod1": "Constante rentefactor",
 	"bitRateSettingMethod2": "Bitsnelheid handmatig invoeren",
-	"crf": "Vaste bitsnelheid factor",
+	"crf": "Constante rentefactor",
 	"crfTip": "Hoe hoger de waarde, hoe slechter de videokwaliteit en hoe hoger de compressiesnelheid",
 	"bitRate": "Maximale bitsnelheid",
 	"bitRateTip1": "Hoe groter de bitsnelheid, hoe groter het videovolume",

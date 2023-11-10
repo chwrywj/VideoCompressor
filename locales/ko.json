@@ -1,5 +1,5 @@
 {
-	"title": "디지털 세계 비디오 압축",
+	"title": "디지털 세계: 비디오 압축",
 	"addFileTip": "지원 형식:",
 	"addFileBtn": "파일 추가",
 	"addDirBtn": "폴더 추가",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "작업 스레드 수",
 	"taskThreadsNumberTip": "작업 스레드 수가 클수록 CUP 및 메모리가 더 많이 소모되므로 일반 컴퓨터는 1-3을 선택하는 것이 좋습니다.",
 	"bitRateSettingMethod": "비트레이트 설정 방법",
-	"bitRateSettingMethod1": "고정 부호율 계수",
+	"bitRateSettingMethod1": "상수 속도 계수",
 	"bitRateSettingMethod2": "비트레이트 수동 입력",
-	"crf": "고정 부호율 계수",
+	"crf": "상수 속도 계수",
 	"crfTip": "값이 클수록 비디오 품질이 떨어지고 압축률이 높음",
 	"bitRate": "최대 비트레이트",
 	"bitRateTip1": "비트레이트가 클수록 비디오 볼륨 증가",

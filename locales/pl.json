@@ -1,5 +1,5 @@
 {
-	"title": "Kompresja wideo w świecie cyfrowym",
+	"title": "Świat cyfrowy: Kompresja wideo",
 	"addFileTip": "Obsługiwane formaty:",
 	"addFileBtn": "Dodaj pliki",
 	"addDirBtn": "dodaj foldery",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Liczba wątków zadań",
 	"taskThreadsNumberTip": "Im większa liczba wątków zadań, tym więcej CUP i pamięci zużywa. Zaleca się wybór 1-3 dla zwykłych komputerów",
 	"bitRateSettingMethod": "Metoda ustawienia szybkości transmisji",
-	"bitRateSettingMethod1": "Stały współczynnik prędkości bitowej",
+	"bitRateSettingMethod1": "Stały współczynnik stopy",
 	"bitRateSettingMethod2": "Ręczne wejście bitu",
-	"crf": "Stały współczynnik prędkości bitowej",
+	"crf": "Stały współczynnik stopy",
 	"crfTip": "Im wyższa wartość, tym gorsza jakość wideo i wyższa szybkość kompresji",
 	"bitRate": "Maksymalna szybkość transmisji",
 	"bitRateTip1": "Im większa szybkość transmisji, tym większa głośność wideo",

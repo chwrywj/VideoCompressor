@@ -1,5 +1,5 @@
 {
-	"title": "Digital World Video Compression",
+	"title": "Digital värld: videokomprimering",
 	"addFileTip": "Format som stöds:",
 	"addFileBtn": "Lägg till filer",
 	"addDirBtn": "lägg till kataloger",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Antal aktivitetstrådar",
 	"taskThreadsNumberTip": "Ju större antal aktivitetstrådar, desto mer CUP och minne förbrukas. Det rekommenderas att välja 1-3 för vanliga datorer",
 	"bitRateSettingMethod": "Metod för inställning av bithastighet",
-	"bitRateSettingMethod1": "Fast bithastighetsfaktor",
+	"bitRateSettingMethod1": "Konstant räntefaktor",
 	"bitRateSettingMethod2": "Manuell inmatningsbithastighet",
-	"crf": "Fast bithastighetsfaktor",
+	"crf": "Konstant räntefaktor",
 	"crfTip": "Ju högre värde desto sämre videokvalitet och desto högre kompressionshastighet",
 	"bitRate": "Maximal bithastighet",
 	"bitRateTip1": "Ju större bithastighet, desto större videovolym",

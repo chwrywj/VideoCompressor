@@ -1,5 +1,5 @@
 {
-	"title": "Digital World Video stiskanje",
+	"title": "Digitalni svet: Video stiskanje",
 	"addFileTip": "Podprte oblike:",
 	"addFileBtn": "Dodaj datoteke",
 	"addDirBtn": "dodaj mape",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "Število niti opravil",
 	"taskThreadsNumberTip": "Večje kot je število niti opravil, več CUP in pomnilnika porabi. Priporočljivo je, da izberete 1- 3 za navadne računalnike.",
 	"bitRateSettingMethod": "Metoda nastavitve bitne hitrosti",
-	"bitRateSettingMethod1": "Faktor fiksne bitne hitrosti",
+	"bitRateSettingMethod1": "Faktor stalne stopnje",
 	"bitRateSettingMethod2": "Ročno vnosno bitno hitrost",
-	"crf": "Faktor fiksne bitne hitrosti",
+	"crf": "Faktor stalne stopnje",
 	"crfTip": "Višja kot je vrednost, slabša je kakovost videa in višja je stopnja stiskanja",
 	"bitRate": "Največja bitna hitrost",
 	"bitRateTip1": "Večja kot je bitna hitrost, večja je glasnost videoposnetka",

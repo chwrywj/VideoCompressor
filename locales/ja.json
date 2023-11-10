@@ -1,5 +1,5 @@
 {
-	"title": "デジタルワールドビデオ圧縮",
+	"title": "デジタルワールドでじたるわーるど:ビデオ圧縮びでおあっしゅく",
 	"addFileTip": "サポート形式：",
 	"addFileBtn": "ファイルを追加",
 	"addDirBtn": "フォルダを追加",
@@ -22,9 +22,9 @@
 	"taskThreadsNumber": "タスクスレッド数",
 	"taskThreadsNumberTip": "タスクスレッド数が大きいほどCUPとメモリが消費されるため、一般的なコンピュータでは1～3を選択することを推奨しています",
 	"bitRateSettingMethod": "ビットレート設定方式",
-	"bitRateSettingMethod1": "こていコードりつけいすう",
+	"bitRateSettingMethod1": "ていそくどけいすう",
 	"bitRateSettingMethod2": "手動入力ビットレート",
-	"crf": "こていコードりつけいすう",
+	"crf": "ていそくどけいすう",
 	"crfTip": "値が大きいほどビデオ品質が悪くなり、圧縮率が高くなる",
 	"bitRate": "最大ビットレート",
 	"bitRateTip1": "ビットレートが大きいほどビデオボリュームが大きくなる",
@@ -45,7 +45,7 @@
 	"resolutionTip6": "整数でなければなりません",
 	"outDir": "出力ディレクトリ",
 	"compressStart": "圧縮開始",
-	"compressStop": "圧縮を停止",
+	"compressStop": "圧縮の停止",
   
 	"support": "サポート",
 	"digitalWorld": "デジタルワールド",
