@@ -31,7 +31,7 @@
 	"bitRateTip2": "If the original bit rate of the video is less than the set bit rate, the original bit rate of the video will be used",
 	"bitRateTip3": "Use original bit rate",
 	"bitRateTip4": "Bit rate must be an integer",
-	"frameRate": "Full resolution",
+	"frameRate": "Maximum frame rate",
 	"frameRateTip1": "Numbers ranging from 10 to 60, with larger frame rates and larger video volume",
 	"frameRateTip11": "If the original frame rate of the video is less than the set frame rate, the original frame rate of the video will be used",
 	"frameRateTip2": "Use original frame rate",
