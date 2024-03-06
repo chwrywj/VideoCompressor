@@ -12,8 +12,22 @@ https://github.com/chwrywj/VideoCompress/releases
 
 ![](https://github.com/chwrywj/VideoCompress/blob/main/screenshot.png)
 
+# Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run electron:serve
+```
+
+### Compiles and minifies for production
+```
+npm run electron:build
+```
+
 # Related
 [ffmpeg](https://www.ffmpeg.org/)
 
 [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg)
-
