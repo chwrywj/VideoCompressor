@@ -9,7 +9,7 @@ module.exports = defineConfig({
       webSecurity: false,
       builderOptions: {
         productName: `Video compress`,
-        appId: 'com.world0101.videocompress',
+        appId: 'net.toollist.videocompressor',
         asar: true,
         linux: {
           target: ['deb'],
